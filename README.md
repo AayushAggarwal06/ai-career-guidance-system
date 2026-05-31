@@ -106,6 +106,14 @@ career_guidance_system/
 │── README.md
 │── .gitignore
 │
+├── assets/
+│   └── screenshots/
+│       ├── home_page.png
+│       ├── career_prediction.png
+│       ├── skill_gap.png
+│       ├── recommendations.png
+│       └── history.png
+│
 ├── data/
 │   ├── synthetic_dataset.csv
 │   └── career_skills.json
