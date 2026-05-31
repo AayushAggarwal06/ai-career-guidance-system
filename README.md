@@ -4,6 +4,12 @@ An intelligent machine learning-based web application that predicts suitable tec
 
 ---
 
+## 🚀 Live Demo
+
+🔗 [Launch Application](https://ai-career-guidance-system-a.streamlit.app)
+
+---
+
 ## 📌 Project Overview
 
 Choosing the right career path is one of the biggest challenges for students. This project helps students identify the most suitable technology career domain using Machine Learning.
