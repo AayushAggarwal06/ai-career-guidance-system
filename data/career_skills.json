@@ -1,0 +1,436 @@
+{
+  "Software Engineer": {
+    "career_category": "Development",
+    "required_skills": {
+      "Programming_Skill": 9,
+      "DBMS_Knowledge": 8,
+      "Computer_Networks": 6,
+      "Mathematics_Statistics": 6,
+      "Web_Development": 6,
+      "App_Development": 5,
+      "Data_Analysis": 4,
+      "Cybersecurity": 3,
+      "Cloud_DevOps": 4,
+      "UI_UX_Design": 3,
+      "Testing_Debugging": 7,
+      "Problem_Solving": 9,
+      "Analytical_Thinking": 8,
+      "Creativity": 5,
+      "Communication_Skill": 6,
+      "Leadership": 5,
+      "Teamwork": 7
+    },
+    "preferred_work_type": "Technical",
+    "work_style": "Individual",
+    "career_description": "Designs, develops, tests and maintains software systems and applications.",
+    "recommended_courses": [
+      "Programming Fundamentals",
+      "Data Structures and Algorithms",
+      "Object-Oriented Programming",
+      "Database Management Systems",
+      "Software Engineering Principles"
+    ],
+    "certifications": [
+      "Software Development Foundations",
+      "Programming Fundamentals Certification"
+    ]
+  },
+
+  "Web Developer": {
+    "career_category": "Development",
+    "required_skills": {
+      "Programming_Skill": 8,
+      "DBMS_Knowledge": 6,
+      "Computer_Networks": 5,
+      "Mathematics_Statistics": 4,
+      "Web_Development": 9,
+      "App_Development": 4,
+      "Data_Analysis": 3,
+      "Cybersecurity": 4,
+      "Cloud_DevOps": 4,
+      "UI_UX_Design": 7,
+      "Testing_Debugging": 6,
+      "Problem_Solving": 8,
+      "Analytical_Thinking": 7,
+      "Creativity": 8,
+      "Communication_Skill": 6,
+      "Leadership": 4,
+      "Teamwork": 7
+    },
+    "preferred_work_type": "Technical",
+    "work_style": "Team",
+    "career_description": "Builds and maintains websites and web applications for users and businesses.",
+    "recommended_courses": [
+      "HTML and CSS Fundamentals",
+      "JavaScript Programming",
+      "Frontend Development",
+      "Backend Development",
+      "Responsive Web Design"
+    ],
+    "certifications": [
+      "Web Development Foundations",
+      "Frontend Development Essentials"
+    ]
+  },
+
+  "Mobile App Developer": {
+    "career_category": "Development",
+    "required_skills": {
+      "Programming_Skill": 9,
+      "DBMS_Knowledge": 6,
+      "Computer_Networks": 5,
+      "Mathematics_Statistics": 5,
+      "Web_Development": 4,
+      "App_Development": 9,
+      "Data_Analysis": 3,
+      "Cybersecurity": 4,
+      "Cloud_DevOps": 4,
+      "UI_UX_Design": 6,
+      "Testing_Debugging": 7,
+      "Problem_Solving": 8,
+      "Analytical_Thinking": 7,
+      "Creativity": 6,
+      "Communication_Skill": 5,
+      "Leadership": 4,
+      "Teamwork": 6
+    },
+    "preferred_work_type": "Technical",
+    "work_style": "Individual",
+    "career_description": "Develops mobile applications for smartphones and tablets.",
+    "recommended_courses": [
+      "Android App Development",
+      "Mobile UI Design",
+      "Cross Platform App Development",
+      "API Integration",
+      "Application Testing"
+    ],
+    "certifications": [
+      "Mobile Development Essentials",
+      "Application Development Fundamentals"
+    ]
+  },
+
+  "Data Analyst": {
+    "career_category": "Data",
+    "required_skills": {
+      "Programming_Skill": 6,
+      "DBMS_Knowledge": 7,
+      "Computer_Networks": 4,
+      "Mathematics_Statistics": 9,
+      "Web_Development": 2,
+      "App_Development": 2,
+      "Data_Analysis": 9,
+      "Cybersecurity": 2,
+      "Cloud_DevOps": 3,
+      "UI_UX_Design": 2,
+      "Testing_Debugging": 4,
+      "Problem_Solving": 8,
+      "Analytical_Thinking": 9,
+      "Creativity": 4,
+      "Communication_Skill": 7,
+      "Leadership": 5,
+      "Teamwork": 6
+    },
+    "preferred_work_type": "Analytical",
+    "work_style": "Individual",
+    "career_description": "Analyzes data to identify trends, insights and support decision-making.",
+    "recommended_courses": [
+      "Statistics for Data Science",
+      "Data Analysis using Python",
+      "SQL Fundamentals",
+      "Data Visualization",
+      "Business Intelligence Basics"
+    ],
+    "certifications": [
+      "Data Analytics Foundations",
+      "Business Intelligence Essentials"
+    ]
+  },
+
+  "Machine Learning Engineer": {
+    "career_category": "Data",
+    "required_skills": {
+      "Programming_Skill": 9,
+      "DBMS_Knowledge": 6,
+      "Computer_Networks": 4,
+      "Mathematics_Statistics": 9,
+      "Web_Development": 3,
+      "App_Development": 2,
+      "Data_Analysis": 9,
+      "Cybersecurity": 2,
+      "Cloud_DevOps": 6,
+      "UI_UX_Design": 2,
+      "Testing_Debugging": 6,
+      "Problem_Solving": 9,
+      "Analytical_Thinking": 9,
+      "Creativity": 5,
+      "Communication_Skill": 6,
+      "Leadership": 4,
+      "Teamwork": 6
+    },
+    "preferred_work_type": "Analytical",
+    "work_style": "Individual",
+    "career_description": "Builds intelligent systems and predictive machine learning models.",
+    "recommended_courses": [
+      "Machine Learning Fundamentals",
+      "Python for AI",
+      "Statistics and Probability",
+      "Deep Learning Basics",
+      "Model Evaluation Techniques"
+    ],
+    "certifications": ["Machine Learning Foundations", "AI Fundamentals"]
+  },
+
+  "Cybersecurity Analyst": {
+    "career_category": "Security",
+    "required_skills": {
+      "Programming_Skill": 6,
+      "DBMS_Knowledge": 5,
+      "Computer_Networks": 9,
+      "Mathematics_Statistics": 5,
+      "Web_Development": 3,
+      "App_Development": 2,
+      "Data_Analysis": 4,
+      "Cybersecurity": 9,
+      "Cloud_DevOps": 5,
+      "UI_UX_Design": 1,
+      "Testing_Debugging": 7,
+      "Problem_Solving": 8,
+      "Analytical_Thinking": 8,
+      "Creativity": 4,
+      "Communication_Skill": 5,
+      "Leadership": 4,
+      "Teamwork": 6
+    },
+    "preferred_work_type": "Technical",
+    "work_style": "Individual",
+    "career_description": "Protects systems, networks and applications from cyber threats.",
+    "recommended_courses": [
+      "Cybersecurity Fundamentals",
+      "Ethical Hacking Basics",
+      "Network Security",
+      "Linux Security",
+      "Threat Analysis"
+    ],
+    "certifications": [
+      "Cybersecurity Foundations",
+      "Network Security Essentials"
+    ]
+  },
+
+  "Cloud Engineer": {
+    "career_category": "Infrastructure",
+    "required_skills": {
+      "Programming_Skill": 7,
+      "DBMS_Knowledge": 5,
+      "Computer_Networks": 8,
+      "Mathematics_Statistics": 5,
+      "Web_Development": 3,
+      "App_Development": 2,
+      "Data_Analysis": 4,
+      "Cybersecurity": 5,
+      "Cloud_DevOps": 9,
+      "UI_UX_Design": 1,
+      "Testing_Debugging": 6,
+      "Problem_Solving": 8,
+      "Analytical_Thinking": 7,
+      "Creativity": 4,
+      "Communication_Skill": 6,
+      "Leadership": 4,
+      "Teamwork": 7
+    },
+    "preferred_work_type": "Technical",
+    "work_style": "Team",
+    "career_description": "Designs, deploys and manages cloud infrastructure and services.",
+    "recommended_courses": [
+      "Cloud Computing Fundamentals",
+      "DevOps Essentials",
+      "Infrastructure Management",
+      "Cloud Security Basics",
+      "Containerization Concepts"
+    ],
+    "certifications": ["Cloud Foundations", "DevOps Essentials"]
+  },
+
+  "UI/UX Designer": {
+    "career_category": "Design",
+    "required_skills": {
+      "Programming_Skill": 3,
+      "DBMS_Knowledge": 2,
+      "Computer_Networks": 2,
+      "Mathematics_Statistics": 3,
+      "Web_Development": 5,
+      "App_Development": 2,
+      "Data_Analysis": 3,
+      "Cybersecurity": 1,
+      "Cloud_DevOps": 1,
+      "UI_UX_Design": 9,
+      "Testing_Debugging": 3,
+      "Problem_Solving": 6,
+      "Analytical_Thinking": 6,
+      "Creativity": 9,
+      "Communication_Skill": 8,
+      "Leadership": 5,
+      "Teamwork": 8
+    },
+    "preferred_work_type": "Creative",
+    "work_style": "Team",
+    "career_description": "Creates visually appealing and user-friendly digital experiences.",
+    "recommended_courses": [
+      "User Interface Design",
+      "User Experience Fundamentals",
+      "Wireframing and Prototyping",
+      "Design Thinking",
+      "Interaction Design"
+    ],
+    "certifications": ["UI Design Essentials", "UX Fundamentals"]
+  },
+
+  "System Administrator": {
+    "career_category": "Infrastructure",
+    "required_skills": {
+      "Programming_Skill": 5,
+      "DBMS_Knowledge": 6,
+      "Computer_Networks": 8,
+      "Mathematics_Statistics": 4,
+      "Web_Development": 2,
+      "App_Development": 2,
+      "Data_Analysis": 3,
+      "Cybersecurity": 6,
+      "Cloud_DevOps": 7,
+      "UI_UX_Design": 1,
+      "Testing_Debugging": 6,
+      "Problem_Solving": 8,
+      "Analytical_Thinking": 7,
+      "Creativity": 3,
+      "Communication_Skill": 6,
+      "Leadership": 4,
+      "Teamwork": 7
+    },
+    "preferred_work_type": "Technical",
+    "work_style": "Team",
+    "career_description": "Maintains servers, systems and organizational IT infrastructure.",
+    "recommended_courses": [
+      "Linux Administration",
+      "Networking Essentials",
+      "System Monitoring",
+      "Infrastructure Basics",
+      "Cloud Administration"
+    ],
+    "certifications": [
+      "System Administration Foundations",
+      "Infrastructure Essentials"
+    ]
+  },
+
+  "Business Analyst": {
+    "career_category": "Business",
+    "required_skills": {
+      "Programming_Skill": 4,
+      "DBMS_Knowledge": 5,
+      "Computer_Networks": 3,
+      "Mathematics_Statistics": 7,
+      "Web_Development": 2,
+      "App_Development": 1,
+      "Data_Analysis": 7,
+      "Cybersecurity": 1,
+      "Cloud_DevOps": 2,
+      "UI_UX_Design": 2,
+      "Testing_Debugging": 3,
+      "Problem_Solving": 8,
+      "Analytical_Thinking": 9,
+      "Creativity": 5,
+      "Communication_Skill": 9,
+      "Leadership": 7,
+      "Teamwork": 8
+    },
+    "preferred_work_type": "Analytical",
+    "work_style": "Team",
+    "career_description": "Bridges business needs and technical solutions through analysis.",
+    "recommended_courses": [
+      "Business Analysis Fundamentals",
+      "Requirement Gathering",
+      "Business Intelligence",
+      "Communication for Analysts",
+      "Stakeholder Management"
+    ],
+    "certifications": [
+      "Business Analysis Foundations",
+      "Project Communication Essentials"
+    ]
+  },
+
+  "Software Tester": {
+    "career_category": "QA",
+    "required_skills": {
+      "Programming_Skill": 6,
+      "DBMS_Knowledge": 5,
+      "Computer_Networks": 4,
+      "Mathematics_Statistics": 5,
+      "Web_Development": 4,
+      "App_Development": 3,
+      "Data_Analysis": 4,
+      "Cybersecurity": 2,
+      "Cloud_DevOps": 2,
+      "UI_UX_Design": 2,
+      "Testing_Debugging": 9,
+      "Problem_Solving": 8,
+      "Analytical_Thinking": 8,
+      "Creativity": 4,
+      "Communication_Skill": 6,
+      "Leadership": 4,
+      "Teamwork": 7
+    },
+    "preferred_work_type": "Technical",
+    "work_style": "Team",
+    "career_description": "Tests software systems to identify defects and ensure software quality.",
+    "recommended_courses": [
+      "Software Testing Fundamentals",
+      "Manual Testing",
+      "Automation Testing Basics",
+      "Bug Tracking",
+      "Quality Assurance Practices"
+    ],
+    "certifications": [
+      "Software Testing Foundations",
+      "Quality Assurance Essentials"
+    ]
+  },
+
+  "IT Project Coordinator": {
+    "career_category": "Management",
+    "required_skills": {
+      "Programming_Skill": 4,
+      "DBMS_Knowledge": 4,
+      "Computer_Networks": 3,
+      "Mathematics_Statistics": 5,
+      "Web_Development": 2,
+      "App_Development": 1,
+      "Data_Analysis": 5,
+      "Cybersecurity": 1,
+      "Cloud_DevOps": 2,
+      "UI_UX_Design": 1,
+      "Testing_Debugging": 3,
+      "Problem_Solving": 7,
+      "Analytical_Thinking": 7,
+      "Creativity": 5,
+      "Communication_Skill": 9,
+      "Leadership": 9,
+      "Teamwork": 9
+    },
+    "preferred_work_type": "Analytical",
+    "work_style": "Team",
+    "career_description": "Coordinates IT projects, manages communication and supports project delivery.",
+    "recommended_courses": [
+      "Project Management Fundamentals",
+      "Agile Basics",
+      "Team Coordination",
+      "Communication Management",
+      "Risk Management"
+    ],
+    "certifications": [
+      "Project Coordination Foundations",
+      "Agile Project Essentials"
+    ]
+  }
+}
