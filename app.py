@@ -220,7 +220,14 @@ analyze_button = st.button(
     use_container_width=True
 )
 
+# Persist analysis state
+if "analyzed" not in st.session_state:
+    st.session_state.analyzed = False
+
 if analyze_button:
+    st.session_state.analyzed = True
+
+if st.session_state.analyzed:
 
     # Create Tabs
     tab1, tab2, tab3, tab4 = st.tabs([
