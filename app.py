@@ -598,7 +598,7 @@ if st.session_state.analyzed:
                 courses=courses
             )
 
-    st.session_state.prediction_saved = True
+            st.session_state.prediction_saved = True
 
     # ======================================
     # TAB 4 - HISTORY
