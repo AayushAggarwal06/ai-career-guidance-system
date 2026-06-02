@@ -316,6 +316,32 @@ if st.session_state.analyzed:
     predicted_career = predict_career(
         student_data.copy()
     )
+    
+    # Save prediction only once
+    if not st.session_state.prediction_saved:
+
+        courses = get_recommended_courses(
+            predicted_career
+        )
+
+        save_prediction(
+            student_name=
+                student_name
+                if student_name
+                else "Unknown",
+
+            gpa=gpa,
+
+            predicted_career=
+                predicted_career,
+
+            priority_skills=
+                {},
+
+            courses=courses
+        )
+
+        st.session_state.prediction_saved = True
 
     skill_gap_report = (
         analyze_skill_gap(
@@ -578,27 +604,6 @@ if st.session_state.analyzed:
                     f"👉 {suggestion}"
                 )
 
-        # Save prediction only once
-        if not st.session_state.prediction_saved:
-
-            save_prediction(
-                student_name=
-                    student_name
-                    if student_name
-                    else "Unknown",
-
-                gpa=gpa,
-
-                predicted_career=
-                    predicted_career,
-
-                priority_skills=
-                    priority_skills,
-
-                courses=courses
-            )
-
-            st.session_state.prediction_saved = True
 
     # ======================================
     # TAB 4 - HISTORY
