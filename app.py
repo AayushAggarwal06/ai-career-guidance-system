@@ -220,7 +220,20 @@ analyze_button = st.button(
     use_container_width=True
 )
 
+# Persist analysis state
+if "analyzed" not in st.session_state:
+    st.session_state.analyzed = False
+
+# Prevent duplicate database saves
+if "prediction_saved" not in st.session_state:
+    st.session_state.prediction_saved = False
+
 if analyze_button:
+    st.session_state.analyzed = True
+    st.session_state.prediction_saved = False
+
+
+if st.session_state.analyzed:
 
     # Create Tabs
     tab1, tab2, tab3, tab4 = st.tabs([
@@ -565,22 +578,27 @@ if analyze_button:
                     f"👉 {suggestion}"
                 )
 
-        save_prediction(
-            student_name=
-                student_name
-                if student_name
-                else "Unknown",
+        # Save prediction only once
+        if not st.session_state.prediction_saved:
 
-            gpa=gpa,
+            save_prediction(
+                student_name=
+                    student_name
+                    if student_name
+                    else "Unknown",
 
-            predicted_career=
-                predicted_career,
+                gpa=gpa,
 
-            priority_skills=
-                priority_skills,
+                predicted_career=
+                    predicted_career,
 
-            courses=courses
-        )
+                priority_skills=
+                    priority_skills,
+
+                courses=courses
+            )
+
+    st.session_state.prediction_saved = True
 
     # ======================================
     # TAB 4 - HISTORY
