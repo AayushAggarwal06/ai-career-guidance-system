@@ -60,43 +60,61 @@ def save_prediction(
 
     cursor = conn.cursor()
 
-    timestamp = datetime.now().strftime(
-        "%d-%m-%Y %H:%M:%S"
-    )
-
-    skill_gap_summary = json.dumps(
-        priority_skills
-    )
-
-    recommended_courses = json.dumps(
-        courses
-    )
-
+    # Check duplicate entry
     cursor.execute("""
-        INSERT INTO prediction_history (
+        SELECT *
+        FROM prediction_history
+        WHERE student_name = ?
+        AND gpa = ?
+        AND predicted_career = ?
+    """, (
+        student_name,
+        gpa,
+        predicted_career
+    ))
 
+    existing_entry = cursor.fetchone()
+
+    # Save only if entry does not exist
+    if existing_entry is None:
+
+        timestamp = datetime.now().strftime(
+            "%d-%m-%Y %H:%M:%S"
+        )
+
+        skill_gap_summary = json.dumps(
+            priority_skills
+        )
+
+        recommended_courses = json.dumps(
+            courses
+        )
+
+        cursor.execute("""
+            INSERT INTO prediction_history (
+
+                student_name,
+                gpa,
+                predicted_career,
+                skill_gap_summary,
+                recommended_courses,
+                timestamp
+
+            )
+
+            VALUES (?, ?, ?, ?, ?, ?)
+        """, (
             student_name,
             gpa,
             predicted_career,
             skill_gap_summary,
             recommended_courses,
             timestamp
+        ))
 
-        )
+        conn.commit()
 
-        VALUES (?, ?, ?, ?, ?, ?)
-    """, (
-        student_name,
-        gpa,
-        predicted_career,
-        skill_gap_summary,
-        recommended_courses,
-        timestamp
-    ))
-
-    conn.commit()
     conn.close()
-
 
 # ==========================================
 # GET HISTORY
